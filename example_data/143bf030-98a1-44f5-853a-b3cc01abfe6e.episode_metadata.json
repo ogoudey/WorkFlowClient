@@ -1,0 +1,19 @@
+{
+  "filename": "c6efb5da-1008-4d3a-888e-786d6048397a",
+  "recordedAt": "2026-08-25T18:00:57Z",
+  "inventoryNumber": "LAIS00007E0HN",
+  "captureConfiguration": {
+    "robotId": "UR5",
+    "gripperId": "Robotiq2F85"
+  },
+  "content": {
+    "episodeTaskId": "SortUtensils",
+    "taskIds": []
+  },
+  "duration": 10,
+  "quality": {
+    "overallRating": 100,
+    "selfCollisions": -1
+  },
+  "workflow": "dp::ci::78cad0ef-fba2-4e27-bf8d-35bd6f25b224::4ce73f7c-c59a-45e9-9f7b-a0c72ffbb691::d472445b-8ae4-4294-b9a1-ad8531658a71::9f4535f4-4deb-473f-a2a7-6c02f631f5b3::fd8fe128-c864-47cc-953f-c7b3d5de767c"
+}
