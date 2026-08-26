@@ -27,3 +27,6 @@ response = ecs.run_task(
 )
 
 task_arn = response["tasks"][0]["taskArn"]
+
+# python3 client.py '{"workflow_id":"WORKFLOW_ID","blocks":[{"name":"test_long_block","command":{"source_bucket":"s3://amzn-s3-log-bucket-laby-test513270157", "destination":"s3://amzn-s3-log-bucket-laby-output125351"}}]}'
+
