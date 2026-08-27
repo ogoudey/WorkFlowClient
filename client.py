@@ -14,6 +14,21 @@ saved_payload = {
         }
     ]
 }
+"""
+{
+    "workflow_id": "test_workflow_4uf83u39",
+    "blocks": [
+        {
+            "name": "composite_videos",
+            "command": {
+                "source_bucket": "s3://amzn-s3-log-bucket-laby-test513270157",
+                "destination": "s3://amzn-s3-log-bucket-laby-output125351",
+                "delete_originals": True
+            }
+        }
+    ]
+}
+"""
 
 if len(sys.argv) > 1:
     request = sys.argv[1]
